@@ -12,7 +12,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         textView=findViewById(R.id.tv);
         textView.setText("Hello GitHub");
-        textView.setTextColor("0xffff0000");
+        textView.setTextColor(0xffff0000);
         
     }
 }
